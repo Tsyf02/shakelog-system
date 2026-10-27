@@ -29,19 +29,33 @@ We bridge the gap between earth science and technology through two logically con
 
 
 shakelog-system/
+
 ├── config/
+
 │   └── database.php      # Koneksi ke MySQL
+
 ├── admin/                # Halaman untuk Kelompok 8 menginput data
+
 │   ├── index.php         # Dashboard admin
+
 │   ├── input-gempa.php   # Form tambah data gempa & korban
+
 │   └── input-media.php   # Form input link gambar & video YouTube
+
 ├── assets/
+
 │   ├── css/              # Styling tema (Gunakan warna krem/cokelat seperti slide)
+
 │   └── js/               # Script untuk Chart.js (Grafik)
+
 ├── views/
+
 │   ├── mitgasi.php       # Halaman Edukasi Sebelum-Saat-Sesudah Gempa
+
 │   └── grafik.php        # Halaman Visualisasi Tren Gempa
+
 ├── index.php             # Halaman Utama (Definisi, Dampak, Gempa Terbesar)
+
 └── detail.php            # Halaman detail per kejadian gempa (Ada video & foto)
 
 ---
